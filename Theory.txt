@@ -3,3 +3,15 @@
 3. npm i react-icons
 4. npm i react-typing-effect
 5. npm i react-toastify
+
+onst Navbar = () => {
+  // 🔹 useState for toggling menu in mobile view
+  const [isOpen, setIsOpen] = useState(false);
+
+  // 🔹 Tracks which section is active (highlighted)
+  const [activeSection, setActiveSection] = useState("");
+
+  // 🔹 Detects if the user scrolled down (for changing background)
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  npm i prop-types

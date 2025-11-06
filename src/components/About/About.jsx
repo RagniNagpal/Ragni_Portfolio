@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/me.jpg';
+import profileImage from '../../assets/mine.jpg';
 
 const About = () => {
   return (
@@ -48,7 +48,7 @@ const About = () => {
             efficient solutions.
           </p>
           {/* Resume Button */}
-            <a href="/Ragni_Resume.pdf"  target="_blank"
+            <a href="/Ragni_CV.pdf"  target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{

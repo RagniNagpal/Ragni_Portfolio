@@ -109,7 +109,7 @@ const Work = () => {
                     rel="noopener noreferrer"
                     className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
-                    View Code
+                    {/* View Code */}
                   </a>
                   <a
                     href={selectedProject.webapp}
@@ -117,7 +117,7 @@ const Work = () => {
                     rel="noopener noreferrer"
                     className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
-                    View Live
+                    {/* View Live */}
                   </a>
                 </div>
               </div>
